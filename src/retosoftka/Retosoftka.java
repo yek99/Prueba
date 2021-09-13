@@ -11,7 +11,7 @@ public class Retosoftka {
     {
         String Direccion="Puntaje.csv"; //Direccion en la cual quieres guardar los datos, puede ser. CSV o TXT
         guardar_datos Datos=new guardar_datos(Direccion);// Clase que gestiona la creacion del archivo
-        Jugador jugador1=new Jugador("Diego","2323",Direccion);// Jugador 1, Tíene Nombre, identificacion, Direecion 
+        Jugador jugador1=new Jugador("Diego","2324",Direccion);// Jugador 1, Tíene Nombre, identificacion, Direecion 
         jugador1.juego();
         Jugador jugador2=new Jugador();
         jugador2.juego();

@@ -15,7 +15,7 @@ public class guardar_datos  // Esta clase se encarja de Crear el archivo de acue
 		try {
 			flwriter = new FileWriter(Direccion);			
                     try (BufferedWriter bfwriter = new BufferedWriter(flwriter)) {	
-                        bfwriter.write("ID"+","+" Nombre"+","+"Puntaje");
+                        bfwriter.write("ID"+","+" Nombre "+","+"Puntaje");
                     }
 					} catch (IOException e) {
                                         } finally 
