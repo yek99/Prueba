@@ -32,7 +32,7 @@ public class Jugador extends niveles
                     try (BufferedWriter bfwriter = new BufferedWriter(flwriter)) {
                         bfwriter.write("\n"+this.id+","+this.nombre+","+this.puntos);
                     }
-			System.out.println("Puntaje guardado. ");
+			System.out.println("Puntaje guardado ");
  
 		} catch (IOException e) {
 		} finally {

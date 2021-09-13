@@ -37,7 +37,7 @@ public class niveles{
             }
             case 2 -> {
                 System.out.println("¿Cuanto es 5+5?\n"+"\n A. 3\nB. 100\nC. 10\nD. 25\nS. Presione s si desea salir del juego");        
-                System.out.println("Por favor ingrese su resultado : ");
+                System.out.println("Por favor ingrese su resultado: ");
                 this.resultadoN1 = sc.nextLine();
                 ResultadoPreg(this.resultadoN1,"C","c",1);
             }
